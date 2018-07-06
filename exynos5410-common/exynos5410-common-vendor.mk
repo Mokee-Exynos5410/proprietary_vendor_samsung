@@ -35,29 +35,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5410-common/proprietary/vendor/firmware/mcRegistry/ffffffff000000000000000000000017.tlbin:system/vendor/firmware/mcRegistry/ffffffff000000000000000000000017.tlbin \
     vendor/samsung/exynos5410-common/proprietary/vendor/firmware/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/vendor/firmware/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     vendor/samsung/exynos5410-common/proprietary/vendor/firmware/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/vendor/firmware/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
-    vendor/samsung/exynos5410-common/proprietary/bin/scranton_RD:system/bin/scranton_RD \
-    vendor/samsung/exynos5410-common/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/bcmdhd_apsta.bin_a0:system/etc/wifi/bcmdhd_apsta.bin_a0 \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/bcmdhd_mfg.bin_a0:system/etc/wifi/bcmdhd_mfg.bin_a0 \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/bcmdhd_sta.bin_a0:system/etc/wifi/bcmdhd_sta.bin_a0 \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_mfg.txt_a0:system/etc/wifi/nvram_mfg.txt_a0 \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_mfg.txt_murata_a0:system/etc/wifi/nvram_mfg.txt_murata_a0 \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_mfg.txt_muratafem1:system/etc/wifi/nvram_mfg.txt_muratafem1 \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_mfg.txt_muratafem2:system/etc/wifi/nvram_mfg.txt_muratafem2 \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_mfg.txt_semco3rd:system/etc/wifi/nvram_mfg.txt_semco3rd \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_mfg.txt_semcosh:system/etc/wifi/nvram_mfg.txt_semcosh \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_net.txt_a0:system/etc/wifi/nvram_net.txt_a0 \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_net.txt_murata_a0:system/etc/wifi/nvram_net.txt_murata_a0 \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_net.txt_muratafem1:system/etc/wifi/nvram_net.txt_muratafem1 \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_net.txt_muratafem2:system/etc/wifi/nvram_net.txt_muratafem2 \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_net.txt_semco3rd:system/etc/wifi/nvram_net.txt_semco3rd \
-    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_net.txt_semcosh:system/etc/wifi/nvram_net.txt_semcosh \
+vendor/samsung/exynos5410-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    vendor/samsung/exynos5410-common/proprietary/bin/scranton_RD:system/vendor/bin/scranton_RD \
+    vendor/samsung/exynos5410-common/proprietary/bin/sensorhubservice:system/vendor/bin/sensorhubservice \
+    vendor/samsung/exynos5410-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/vendor/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/exynos5410-common/proprietary/etc/wifi/bcmdhd_ibss.bin:system/vendor/etc/wifi/bcmdhd_ibss.bin \
+    vendor/samsung/exynos5410-common/proprietary/etc/wifi/bcmdhd_mfg.bin:system/vendor/etc/wifi/bcmdhd_mfg.bin \
+    vendor/samsung/exynos5410-common/proprietary/etc/wifi/bcmdhd_sta.bin:system/vendor/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_mfg.txt:system/vendor/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_mfg.txt_a0:system/vendor/etc/wifi/nvram_mfg.txt_a0 \
+    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_mfg.txt_muratafem1:system/vendor/etc/wifi/nvram_mfg.txt_muratafem1 \
+    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_mfg.txt_semco3rd:system/vendor/etc/wifi/nvram_mfg.txt_semco3rd \
+    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_net.txt:system/vendor/etc/wifi/nvram_net.txt \
+    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_net.txt_a0:system/vendor/etc/wifi/nvram_net.txt_a0 \
+    vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_net.txt_muratafem1:system/vendor/etc/wifi/nvram_net.txt_muratafem1 \
+vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_net.txt_semco3rd:system/vendor/etc/wifi/nvram_net.txt_semco3rd \
     vendor/samsung/exynos5410-common/proprietary/lib/hw/sensorhubs.universal5410.so:system/vendor/lib/hw/sensorhubs.universal5410.so \
     vendor/samsung/exynos5410-common/proprietary/lib/hw/sensors.universal5410.so:system/vendor/lib/hw/sensors.universal5410.so \
     vendor/samsung/exynos5410-common/proprietary/lib/libakm.so:system/vendor/lib/libakm.so \
@@ -94,3 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5410-common/proprietary/vendor/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
     vendor/samsung/exynos5410-common/proprietary/vendor/lib/libusc.so:system/vendor/lib/libusc.so \
     vendor/samsung/exynos5410-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+
+PRODUCT_PACKAGES += \
+    libtime_genoff \
+    TimeService
