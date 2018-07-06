@@ -58,19 +58,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_net.txt_muratafem2:system/etc/wifi/nvram_net.txt_muratafem2 \
     vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_net.txt_semco3rd:system/etc/wifi/nvram_net.txt_semco3rd \
     vendor/samsung/exynos5410-common/proprietary/etc/wifi/nvram_net.txt_semcosh:system/etc/wifi/nvram_net.txt_semcosh \
-    vendor/samsung/exynos5410-common/proprietary/lib/hw/sensorhubs.universal5410.so:system/lib/hw/sensorhubs.universal5410.so \
-    vendor/samsung/exynos5410-common/proprietary/lib/hw/sensors.universal5410.so:system/lib/hw/sensors.universal5410.so \
-    vendor/samsung/exynos5410-common/proprietary/lib/libakm.so:system/lib/libakm.so \
-    vendor/samsung/exynos5410-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/samsung/exynos5410-common/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
-    vendor/samsung/exynos5410-common/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-    vendor/samsung/exynos5410-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/exynos5410-common/proprietary/lib/libsensirion_j1.so:system/lib/libsensirion_j1.so \
-    vendor/samsung/exynos5410-common/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
-    vendor/samsung/exynos5410-common/proprietary/lib/libsensorhubcontext.so:system/lib/libsensorhubcontext.so \
-    vendor/samsung/exynos5410-common/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
-    vendor/samsung/exynos5410-common/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-    vendor/samsung/exynos5410-common/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+    vendor/samsung/exynos5410-common/proprietary/lib/hw/sensorhubs.universal5410.so:system/vendor/lib/hw/sensorhubs.universal5410.so \
+    vendor/samsung/exynos5410-common/proprietary/lib/hw/sensors.universal5410.so:system/vendor/lib/hw/sensors.universal5410.so \
+    vendor/samsung/exynos5410-common/proprietary/lib/libakm.so:system/vendor/lib/libakm.so \
+    vendor/samsung/exynos5410-common/proprietary/lib/libexynoscamera.so:system/vendor/lib/libexynoscamera.so \
+    vendor/samsung/exynos5410-common/proprietary/lib/libgnustl_shared.so:system/vendor/lib/libgnustl_shared.so \
+    vendor/samsung/exynos5410-common/proprietary/lib/libhwjpeg.so:system/vendor/lib/libhwjpeg.so \
+    vendor/samsung/exynos5410-common/proprietary/lib/libsecnativefeature.so:system/vendor/lib/libsecnativefeature.so \
+    vendor/samsung/exynos5410-common/proprietary/lib/libsensirion_j1.so:system/vendor/lib/libsensirion_j1.so \
+    vendor/samsung/exynos5410-common/proprietary/lib/libsensorhub.so:system/vendor/lib/libsensorhub.so \
+    vendor/samsung/exynos5410-common/proprietary/lib/libsensorhubcontext.so:system/vendor/lib/libsensorhubcontext.so \
+    vendor/samsung/exynos5410-common/proprietary/lib/libsensorhubservice.so:system/vendor/lib/libsensorhubservice.so \
+    vendor/samsung/exynos5410-common/proprietary/lib/libvdis.so:system/vendor/lib/libvdis.so \
+    vendor/samsung/exynos5410-common/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/exynos5410-common/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
     vendor/samsung/exynos5410-common/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
     vendor/samsung/exynos5410-common/proprietary/vendor/firmware/fimc_is_gumi_fw2.bin:system/vendor/firmware/fimc_is_gumi_fw2.bin \

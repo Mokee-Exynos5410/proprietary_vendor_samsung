@@ -17,4 +17,4 @@
 
 # stlport    
 PRODUCT_COPY_FILES += \
-    vendor/samsung/exynos5420-common/proprietary/lib/libstlport.so:system/lib/libstlport.so
+    vendor/samsung/exynos5420-common/proprietary/lib/libstlport.so:system/vendor/lib/libstlport.so
